@@ -19,3 +19,5 @@ return [
     ],
 
 ];
+
+Route::resource('test', 'api/test');
