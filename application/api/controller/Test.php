@@ -7,6 +7,10 @@ class Test extends Base()
 
 	public function index()
 	{
-		return show();
+		$data = [
+			'ss'=>'sss',
+			'dddd'=>'dddd',
+		];
+		return show(0, 'ok', $data, 200);
 	}
 }
